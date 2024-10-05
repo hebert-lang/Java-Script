@@ -1,0 +1,22 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+    background-image: url("Corinthianssccp2023.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.jogadores{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.jogadores img{
+    border-radius: 50%;
+    width: 10vw;
+    height: 20vh;
+    margin: 2em;
+}
